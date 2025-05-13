@@ -3,16 +3,16 @@ import os
 
 dict_image = {
     'male': {
-        'clear': 'male_clear.png',
-        'rain': 'male_rain.png',
-        'snow': 'male_snow.png',
-        'cloudy': 'male_cloudy.png'
+        'clear': 'male_clear.jpg',
+        'rain': 'male_rain.jpg',
+        'snow': 'male_snow.jpg',
+        'cloudy': 'male_cloudy.jpg'
     },
     'female': {
-        'clear': 'female_clear.png',
-        'rain': 'female_rain.png',
-        'snow': 'female_snow.png',
-        'cloudy': 'female_cloudy.png'
+        'clear': 'female_clear.jpg',
+        'rain': 'female_rain.jpg',
+        'snow': 'female_snow.jpg',
+        'cloudy': 'female_cloudy.jpg'
     }
 }
 
