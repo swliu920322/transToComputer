@@ -10,7 +10,7 @@ class RequestClient:
             cls._instance.session = requests.Session()
 
             cls._instance.session.headers = {
-                "x-rapidapi-key": "e3dfcbb108msh824ce8e149e41b1p143745jsn3b1b792821a4",
+                "x-rapidapi-key": "c6dec742e9msh00962b4203af7e9p1a2fb6jsnaf98c596d800",
                 "x-rapidapi-host": "open-weather13.p.rapidapi.com"
             }
             cls._instance.session.timeout = 10
@@ -23,6 +23,7 @@ class RequestClient:
         return cls._instance
 
     def get_weather(self, country):
-        url = "https://open-weather13.p.rapidapi.com/city/" + country + '/EN'
-        res = self.session.get(url)
+        url = "https://open-weather13.p.rapidapi.com/city"
+        querystring = {"city": country, "lang": "EN"}
+        res = self.session.get(url, params=querystring)
         return res.json()['weather'][0]['main']
