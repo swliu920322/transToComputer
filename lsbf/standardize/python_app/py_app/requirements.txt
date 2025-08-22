@@ -1,0 +1,6 @@
+# Core dependencies
+requests>=2.28.0  # 用于API请求获取天气数据（utils/Request.py使用）
+Pillow>=9.0.0     # 用于图像处理（tk.PhotoImage需要）
+
+# Development dependencies (optional)
+pytest>=7.0.0     # 可选：用于运行测试脚本 

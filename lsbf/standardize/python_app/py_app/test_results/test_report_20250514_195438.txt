@@ -1,0 +1,138 @@
+Clothes Recommendation Test Report
+Generated: 2025-05-14 19:54:32
+==================================================
+
+COMPREHENSIVE WEATHER TYPE TESTS:
+----------------------------------------
+
+Gender/Weather | Clear  | Cloudy | Rain   | Snow   
+--------------+--------+--------+--------+--------
+male          | PASS    | PASS    | PASS    | PASS    | 
+female        | PASS    | PASS    | PASS    | PASS    | 
+
+
+DETAILED TEST RESULTS:
+----------------------------------------
+
+Test #1:
+  Test Type: country_based
+  Gender: male
+  Country: singapore
+  Weather: Clouds
+  Weather Type: cloudy
+  Image Path: ./assets/male_cloudy.jpg
+  Image Exists: True
+  Result: PASS
+
+Test #2:
+  Test Type: country_based
+  Gender: male
+  Country: malaysia
+  Weather: Clouds
+  Weather Type: cloudy
+  Image Path: ./assets/male_cloudy.jpg
+  Image Exists: True
+  Result: PASS
+
+Test #3:
+  Test Type: country_based
+  Gender: female
+  Country: singapore
+  Weather: Clouds
+  Weather Type: cloudy
+  Image Path: ./assets/female_cloudy.jpg
+  Image Exists: True
+  Result: PASS
+
+Test #4:
+  Test Type: country_based
+  Gender: female
+  Country: malaysia
+  Weather: Clouds
+  Weather Type: cloudy
+  Image Path: ./assets/female_cloudy.jpg
+  Image Exists: True
+  Result: PASS
+
+Test #5:
+  Test Type: weather_type_based
+  Gender: male
+  Weather Type: clear
+  Image Path: ./assets/male_clear.jpg
+  Image Exists: True
+  Result: PASS
+
+Test #6:
+  Test Type: weather_type_based
+  Gender: male
+  Weather Type: cloudy
+  Image Path: ./assets/male_cloudy.jpg
+  Image Exists: True
+  Result: PASS
+
+Test #7:
+  Test Type: weather_type_based
+  Gender: male
+  Weather Type: rain
+  Image Path: ./assets/male_rain.jpg
+  Image Exists: True
+  Result: PASS
+
+Test #8:
+  Test Type: weather_type_based
+  Gender: male
+  Weather Type: snow
+  Image Path: ./assets/male_snow.jpg
+  Image Exists: True
+  Result: PASS
+
+Test #9:
+  Test Type: weather_type_based
+  Gender: female
+  Weather Type: clear
+  Image Path: ./assets/female_clear.jpg
+  Image Exists: True
+  Result: PASS
+
+Test #10:
+  Test Type: weather_type_based
+  Gender: female
+  Weather Type: cloudy
+  Image Path: ./assets/female_cloudy.jpg
+  Image Exists: True
+  Result: PASS
+
+Test #11:
+  Test Type: weather_type_based
+  Gender: female
+  Weather Type: rain
+  Image Path: ./assets/female_rain.jpg
+  Image Exists: True
+  Result: PASS
+
+Test #12:
+  Test Type: weather_type_based
+  Gender: female
+  Weather Type: snow
+  Image Path: ./assets/female_snow.jpg
+  Image Exists: True
+  Result: PASS
+
+SUMMARY:
+----------------------------------------
+
+Total tests: 12
+Passed: 12
+Failed: 0
+Success rate: 100.00%
+
+Country-based tests:
+  Total: 4
+  Passed: 4
+  Success rate: 100.00%
+
+Weather type tests:
+  Total: 8 (expected: 8)
+  Passed: 8
+  Success rate: 100.00%
+
